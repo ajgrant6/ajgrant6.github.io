@@ -8,9 +8,7 @@
         "build": "vite build",
         "preview": "vite preview",
         "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
-        "format": "prettier --write src/",
-        "predeploy": "npm run build",
-        "deploy": "gh-pages -d dist"
+        "format": "prettier --write src/"
     },
     "dependencies": {
         "vue": "^3.4.21"
