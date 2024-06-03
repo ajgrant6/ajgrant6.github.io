@@ -5,7 +5,7 @@
     <div>
         <image-of-me />
     </div>
-    <div>text text text</div>
+    <div>text text text text</div>
 </template>
 
 <script></script>
