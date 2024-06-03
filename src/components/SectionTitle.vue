@@ -50,7 +50,7 @@ h1 {
 }
 
 div {
-  margin-top: 90px;
-  margin-bottom: 90px;
+  margin-top: 70px;
+  margin-bottom: 70px;
 }
 </style>
