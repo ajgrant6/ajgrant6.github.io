@@ -1,4 +1,5 @@
 import { createApp } from 'vue'
+import Vue3Marquee from 'vue3-marquee'
 
 import App from './App.vue'
 
@@ -9,10 +10,12 @@ import NavBar from './components/NavBar.vue'
 
 import SectionTitle from './components/SectionTitle.vue'
 
-import AboutSection from './components/AboutSection.vue'
-import ImageOfMe from './components/ImageOfMe.vue'
+import AboutSection from './components/About/AboutSection.vue'
+import ImageOfMe from './components/About/ImageOfMe.vue'
 
 const app = createApp(App)
+
+app.use(Vue3Marquee)
 
 app.component('title-item', MyTitle)
 app.component('title-screen', TitleScreen)
