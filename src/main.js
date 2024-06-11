@@ -12,6 +12,8 @@ import SectionTitle from './components/SectionTitle.vue'
 
 import AboutSection from './components/About/AboutSection.vue'
 import ImageOfMe from './components/About/ImageOfMe.vue'
+import SoftwareMarquee from './components/About/SoftwareMarquee.vue'
+import SoftwareCard from './components/About/SoftwareCard.vue'
 
 const app = createApp(App)
 
@@ -26,5 +28,7 @@ app.component('section-title', SectionTitle)
 
 app.component('about-section', AboutSection)
 app.component('image-of-me', ImageOfMe)
+app.component('software-marquee', SoftwareMarquee)
+app.component('software-card', SoftwareCard)
 
 app.mount('#app')

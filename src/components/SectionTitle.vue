@@ -46,7 +46,7 @@ h1 {
     position: relative;
     margin: 0;
     padding: 10px;
-    font-size: 60px;
+    font-size: 70px;
 }
 
 div {

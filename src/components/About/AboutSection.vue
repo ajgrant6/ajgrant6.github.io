@@ -16,6 +16,10 @@
             </div>
         </div>
     </div>
+    <div class="marquee-container">
+        <software-marquee />
+        <software-marquee :direction="'reverse'" />
+    </div>
 </template>
 
 <script></script>
@@ -41,5 +45,10 @@
     font-size: 18px;
     max-width: 700px;
     margin: 0 20px;
+}
+
+.marquee-container {
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
 </style>
