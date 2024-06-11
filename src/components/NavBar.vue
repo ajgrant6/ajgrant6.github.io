@@ -33,12 +33,11 @@ export default {
 <style scoped>
 .nav {
     display: flex;
-    justify-content: right;
+    justify-content: right; /* Changed from right to space-between */
     background-color: #59565a;
     width: 100vw;
     transition: all 0.3s;
 }
-
 .sticky {
     position: fixed;
     top: 0;

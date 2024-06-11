@@ -25,8 +25,8 @@ p {
 
 h1 {
     font-size: 120px;
-    margin-top: -20px;
-    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 24px;
     line-height: 0.9;
 }
 </style>

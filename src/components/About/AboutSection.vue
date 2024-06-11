@@ -51,4 +51,10 @@
     margin-top: 70px;
     margin-bottom: 70px;
 }
+
+p {
+    font-size: 18px;
+    font-family: 'Roboto';
+    color: #373538;
+}
 </style>

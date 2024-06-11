@@ -13,6 +13,9 @@
         "deploy": "vite build && gh-pages -d dist"
     },
     "dependencies": {
+        "@tsparticles/slim": "^3.4.0",
+        "@tsparticles/vue3": "^3.0.1",
+        "tsparticles": "^3.4.0",
         "vue": "^3.4.21",
         "vue3-marquee": "^4.2.0"
     },
