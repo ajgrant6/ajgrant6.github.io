@@ -1,8 +1,8 @@
 <template>
     <div :class="['nav', { sticky: isSticky }]" ref="navbar">
-        <div class="item item-1">About</div>
-        <div class="item item-2">Projects</div>
-        <div class="item item-3">Contact</div>
+        <div class="item item-1" @click="scrollToSection('about')">About</div>
+        <div class="item item-2" @click="scrollToSection('projects')">Projects</div>
+        <div class="item item-3" @click="scrollToSection('contact')">Contact</div>
     </div>
 </template>
 
@@ -25,6 +25,12 @@ export default {
             const windowHeight = window.innerHeight
 
             this.isSticky = scrollTop > windowHeight
+        },
+        scrollToSection(sectionId) {
+            const section = document.getElementById(sectionId)
+            if (section) {
+                section.scrollIntoView({ behavior: 'smooth' })
+            }
         }
     }
 }
@@ -49,6 +55,7 @@ export default {
     flex: 1;
     max-width: 100px;
     padding: 10px;
+    cursor: pointer;
 }
 
 .item-1 {
@@ -61,6 +68,18 @@ export default {
 
 .item-3 {
     background-color: #9dd9d2;
+}
+
+.item-1:hover {
+    background-color: #d4b05f; /* Manually specify a darker shade */
+}
+
+.item-2:hover {
+    background-color: #e6790d; /* Manually specify a darker shade */
+}
+
+.item-3:hover {
+    background-color: #7dc7c3; /* Manually specify a darker shade */
 }
 
 div {

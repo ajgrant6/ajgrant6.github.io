@@ -22,6 +22,8 @@ import MyTraits from './components/About/MyTraits.vue'
 
 import ProjectSection from './components/Projects/ProjectSection.vue'
 
+import ContactSection from './components/Contact/ContactSection.vue'
+
 const app = createApp(App)
 
 app.use(Vue3Marquee)
@@ -48,5 +50,7 @@ app.component('software-card', SoftwareCard)
 app.component('my-traits', MyTraits)
 
 app.component('project-section', ProjectSection)
+
+app.component('contact-section', ContactSection)
 
 app.mount('#app')

@@ -6,13 +6,24 @@
     <title-screen />
 
     <navbar-item />
-    <div class="background2">
-        <about-section />
-    </div>
 
-    <div class="background1">
-        <project-section />
-    </div>
+    <section id="about">
+        <div class="background2">
+            <about-section />
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="background1">
+            <project-section />
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="background2">
+            <contact-section />
+        </div>
+    </section>
 </template>
 
 <script></script>
