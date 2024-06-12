@@ -18,6 +18,8 @@ import ImageOfMe from './components/About/ImageOfMe.vue'
 import SoftwareMarquee from './components/About/SoftwareMarquee.vue'
 import SoftwareCard from './components/About/SoftwareCard.vue'
 
+import ProjectSection from './components/Projects/ProjectSection.vue'
+
 const app = createApp(App)
 
 app.use(Vue3Marquee)
@@ -40,5 +42,7 @@ app.component('about-section', AboutSection)
 app.component('image-of-me', ImageOfMe)
 app.component('software-marquee', SoftwareMarquee)
 app.component('software-card', SoftwareCard)
+
+app.component('project-section', ProjectSection)
 
 app.mount('#app')

@@ -47,6 +47,7 @@ h1 {
     margin: 0;
     padding: 10px;
     font-size: 70px;
+    z-index: 2;
 }
 
 div {

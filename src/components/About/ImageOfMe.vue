@@ -6,7 +6,7 @@
 
 <script></script>
 
-<style>
+<style scoped>
 .image-container {
     display: flex;
     justify-content: center;
@@ -18,5 +18,6 @@
     height: 300px; /* Adjust the size as needed */
     border-radius: 50%;
     object-fit: cover;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 </style>
