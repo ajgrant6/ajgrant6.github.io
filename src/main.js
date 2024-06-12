@@ -12,11 +12,13 @@ import ParticleWall from './components/Title/ParticleWall.vue'
 import NavBar from './components/NavBar.vue'
 
 import SectionTitle from './components/SectionTitle.vue'
+import SectionSubtitle from './components/SectionSubtitle.vue'
 
 import AboutSection from './components/About/AboutSection.vue'
 import ImageOfMe from './components/About/ImageOfMe.vue'
 import SoftwareMarquee from './components/About/SoftwareMarquee.vue'
 import SoftwareCard from './components/About/SoftwareCard.vue'
+import MyTraits from './components/About/MyTraits.vue'
 
 import ProjectSection from './components/Projects/ProjectSection.vue'
 
@@ -37,11 +39,13 @@ app.component('particle-wall', ParticleWall)
 app.component('navbar-item', NavBar)
 
 app.component('section-title', SectionTitle)
+app.component('section-subtitle', SectionSubtitle)
 
 app.component('about-section', AboutSection)
 app.component('image-of-me', ImageOfMe)
 app.component('software-marquee', SoftwareMarquee)
 app.component('software-card', SoftwareCard)
+app.component('my-traits', MyTraits)
 
 app.component('project-section', ProjectSection)
 

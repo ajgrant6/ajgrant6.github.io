@@ -13,9 +13,20 @@
                     from the University of California, Merced. From the latest research in Large
                     Language Models to the newest iOS SDKs, I'm always exploring the cutting edge.
                 </p>
+                <p>Thanks for visiting my site, I hope I can impress!</p>
             </div>
         </div>
     </div>
+
+    <div>
+        <div>
+            <section-subtitle title="What I can do" bgColor="#F4D06F" />
+        </div>
+        <div>
+            <my-traits />
+        </div>
+    </div>
+
     <div class="marquee-container">
         <div class="marquee-item" style="margin-bottom: 15px">
             <software-marquee />
@@ -48,9 +59,9 @@
 .description-text {
     max-width: 700px;
     margin: 0 10px;
-    background-color: #fff8f0;
+    /* background-color: #fff8f0;
     border-radius: 10px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); */
 }
 
 .marquee-container {

@@ -8,7 +8,7 @@
     <div style="background-color: #fff8f0">
         <navbar-item />
         <about-section />
-        <p style="margin-top: 500px">_</p>
+        <project-section />
     </div>
 </template>
 
