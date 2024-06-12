@@ -15,8 +15,18 @@
             <h>Artificial Intelligence</h>
             <p>
                 From the classic minmax algorithms in game theory to the latest Large Language
-                Models, I'm always keeping up. I even have experience fine-tuning Large Language
-                Models like Llama and more.
+                Models, I'm always keeping up with the latest research. I even have experience
+                fine-tuning Large Language Models like Llama and more.
+            </p>
+        </div>
+        <div class="traits-item">
+            <img src="@/assets/traitslogos/brackets.svg" alt="Software Development" />
+            <h>Software Development</h>
+            <p>
+                I have experience with a variety of software development tools. I'm most comfortable
+                in a Python Notebook, but I am familiar with languages like C and C++. I also have
+                experience in front-end development with SwiftUI and Vue.js (which I used to make
+                this website!).
             </p>
         </div>
     </div>
