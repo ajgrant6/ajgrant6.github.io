@@ -4,29 +4,29 @@
             <img src="@/assets/traitslogos/decision-tree.svg" alt="Machine Learning" />
             <h>Machine Learning</h>
             <p>
-                From classifying mailing-list recipients with association rules and k-means
-                clustering, to predicting the timeliness of trucks in the busiest ports in the
-                Netherlands with regression models, I have experience with a variety of machine
-                learning techniques.
+                My machine learning expertise spans a wide range of techniques. I've classified
+                mailing-list recipients using association rules and k-means clustering, and I've
+                employed regression models to predict truck arrival times in the bustling ports of
+                the Netherlands.
             </p>
         </div>
         <div class="traits-item">
             <img src="@/assets/traitslogos/mesh-brain.svg" alt="Artificial Intelligence" />
             <h>Artificial Intelligence</h>
             <p>
-                From the classic minmax algorithms in game theory to the latest Large Language
-                Models, I'm always keeping up with the latest research. I even have experience
-                fine-tuning Large Language Models like Llama and more.
+                I stay at the forefront of AI advancements, from classic game theory algorithms like
+                minmax to cutting-edge Large Language Models. My hands-on experience includes
+                fine-tuning models like Llama and exploring the latest research in the field.
             </p>
         </div>
         <div class="traits-item">
             <img src="@/assets/traitslogos/brackets.svg" alt="Software Development" />
             <h>Software Development</h>
             <p>
-                I have experience with a variety of software development tools. I'm most comfortable
-                in a Python Notebook, but I am familiar with languages like C and C++. I also have
-                experience in front-end development with SwiftUI and Vue.js (which I used to make
-                this website!).
+                With a strong foundation in various software development tools, I thrive in Python
+                Notebooks and have proficiency in languages such as C and C++. My front-end
+                development skills include creating projects with SwiftUI and Vue.js, which I used
+                to build this website!
             </p>
         </div>
     </div>
