@@ -75,7 +75,6 @@
 
 p {
     font-size: 20px;
-    font-family: 'Roboto';
     color: #373538;
     padding: 20px;
 }

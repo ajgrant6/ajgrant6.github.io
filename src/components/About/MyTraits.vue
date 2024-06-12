@@ -1,13 +1,22 @@
 <template>
     <div class="traits-container">
         <div class="traits-item">
-            <img src="@/assets/traitslogos/database.svg" alt="Programming" />
+            <img src="@/assets/traitslogos/decision-tree.svg" alt="Machine Learning" />
             <h>Machine Learning</h>
             <p>
                 From classifying mailing-list recipients with association rules and k-means
                 clustering, to predicting the timeliness of trucks in the busiest ports in the
                 Netherlands with regression models, I have experience with a variety of machine
                 learning techniques.
+            </p>
+        </div>
+        <div class="traits-item">
+            <img src="@/assets/traitslogos/mesh-brain.svg" alt="Artificial Intelligence" />
+            <h>Artificial Intelligence</h>
+            <p>
+                From the classic minmax algorithms in game theory to the latest Large Language
+                Models, I'm always keeping up. I even have experience fine-tuning Large Language
+                Models like Llama and more.
             </p>
         </div>
     </div>
