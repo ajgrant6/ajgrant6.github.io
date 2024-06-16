@@ -32,7 +32,7 @@ export default {
                 },
                 {
                     id: 2,
-                    title: 'Project 2',
+                    title: 'HackDavis 2024: JobScoper',
                     description: 'This is a description of project 2',
                     image: new URL('@/assets/images/project2.jpg', import.meta.url).href,
                     links: [
@@ -48,9 +48,41 @@ export default {
                 },
                 {
                     id: 3,
-                    title: 'Project 3',
+                    title: 'Kaggle: Store Sales Time Series Forecasting',
                     description: 'This is a description of project 3',
                     image: new URL('@/assets/images/project3.jpg', import.meta.url).href,
+                    links: [
+                        {
+                            title: 'Github',
+                            url: 'https://github.com'
+                        },
+                        {
+                            title: 'Live',
+                            url: 'https://live.com'
+                        }
+                    ]
+                },
+                {
+                    id: 4,
+                    title: 'PUNKT: Distribution Center Data Analysis',
+                    description: 'This is a description of project 4',
+                    image: new URL('@/assets/images/project4.jpg', import.meta.url).href,
+                    links: [
+                        {
+                            title: 'Github',
+                            url: 'https://github.com'
+                        },
+                        {
+                            title: 'Live',
+                            url: 'https://live.com'
+                        }
+                    ]
+                },
+                {
+                    id: 5,
+                    title: 'This Website!',
+                    description: 'This is a description of project 5',
+                    image: new URL('@/assets/images/project5.jpg', import.meta.url).href,
                     links: [
                         {
                             title: 'Github',

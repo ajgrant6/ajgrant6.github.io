@@ -52,6 +52,11 @@ img {
 }
 
 .project-card:hover {
-    transform: translateY(-10px);
+    transform: translateY(-2px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.description {
+    flex-grow: 2;
 }
 </style>
