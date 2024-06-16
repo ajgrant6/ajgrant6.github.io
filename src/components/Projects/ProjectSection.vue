@@ -22,75 +22,66 @@ export default {
                     links: [
                         {
                             title: 'Github',
-                            url: 'https://github.com'
-                        },
-                        {
-                            title: 'Live',
-                            url: 'https://live.com'
+                            url: 'https://github.com/CSE-120-316/Sweep-LLM-Builder'
                         }
                     ]
                 },
                 {
                     id: 2,
                     title: 'HackDavis 2024: JobScoper',
-                    description: 'This is a description of project 2',
-                    image: new URL('@/assets/images/project2.jpg', import.meta.url).href,
+                    description:
+                        "This is my HackDavis 2024 submission. JobScoper is a React application that uses Selenium to scrape job postings to help you find out if you're a good fit. It makes use of various social justice APIs for location information and the OpenAI API for a resume review.",
+                    image: new URL(
+                        '/../src/assets/ProjectImages/JobScoperScreenCap.png',
+                        import.meta.url
+                    ).href,
                     links: [
                         {
-                            title: 'Github',
-                            url: 'https://github.com'
-                        },
-                        {
-                            title: 'Live',
-                            url: 'https://live.com'
+                            title: 'DevPost',
+                            url: 'https://devpost.com/software/job-scoper'
                         }
                     ]
                 },
                 {
                     id: 3,
                     title: 'Kaggle: Store Sales Time Series Forecasting',
-                    description: 'This is a description of project 3',
-                    image: new URL('@/assets/images/project3.jpg', import.meta.url).href,
+                    description:
+                        'One of my first attempts at time-serie forecasting. This Python Notebook predicts store sales in Ecuador from a Kaggle dataset. It makes use of various models, including Gradient Boosting.',
+                    image: new URL(
+                        '/../src/assets/ProjectImages/TimeSeriesStock.png',
+                        import.meta.url
+                    ).href,
                     links: [
                         {
-                            title: 'Github',
-                            url: 'https://github.com'
-                        },
-                        {
-                            title: 'Live',
-                            url: 'https://live.com'
+                            title: 'Python Notebook',
+                            url: 'https://github.com/ajgrant6/store-sales-time-series-forecasting/blob/main/Analysis.ipynb'
                         }
                     ]
                 },
                 {
                     id: 4,
                     title: 'PUNKT: Distribution Center Data Analysis',
-                    description: 'This is a description of project 4',
-                    image: new URL('@/assets/images/project4.jpg', import.meta.url).href,
+                    description:
+                        'For my final project during my study abroad in the Netherlands, I analyzed real-world data from a shipping center in the Netherlands and created this write up.',
+                    image: new URL('/../src/assets/ProjectImages/Punkt.png', import.meta.url).href,
                     links: [
                         {
-                            title: 'Github',
-                            url: 'https://github.com'
-                        },
-                        {
-                            title: 'Live',
-                            url: 'https://live.com'
+                            title: 'Google Drive',
+                            url: 'https://drive.google.com/file/d/1OotQMgFvDIU7ONffWX_rZKqa9sKB3F5e/view?usp=sharing'
                         }
                     ]
                 },
                 {
                     id: 5,
                     title: 'This Website!',
-                    description: 'This is a description of project 5',
-                    image: new URL('@/assets/images/project5.jpg', import.meta.url).href,
+                    description:
+                        'If I add my own portfolio site to my portfolio, does that make it a recursive portfolio? This site was built using Vue.js and Vite and is hosted on Github Pages.',
+                    image: new URL('/../src/assets/ProjectImages/SiteCap.png', import.meta.url)
+                        .href,
                     links: [
                         {
                             title: 'Github',
-                            url: 'https://github.com'
-                        },
-                        {
-                            title: 'Live',
-                            url: 'https://live.com'
+                            url: 'https://github.com/ajgrant6/ajgrant6.github.io'
                         }
                     ]
                 }
