@@ -54,7 +54,6 @@ p {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    max-width: 1200px;
     margin: 0 auto;
     margin-left: 5%;
     margin-right: 5%;
