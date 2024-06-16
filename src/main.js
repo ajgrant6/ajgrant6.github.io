@@ -1,6 +1,6 @@
 import { createApp } from 'vue'
 import Particles from '@tsparticles/vue3'
-import { loadFull } from 'tsparticles' // if you are going to use `loadFull`, install the "tsparticles" package too.
+import { loadFull } from 'tsparticles'
 import Vue3Marquee from 'vue3-marquee'
 
 import App from './App.vue'
@@ -21,6 +21,7 @@ import SoftwareCard from './components/About/SoftwareCard.vue'
 import MyTraits from './components/About/MyTraits.vue'
 
 import ProjectSection from './components/Projects/ProjectSection.vue'
+import ProjectCard from './components/Projects/ProjectCard.vue'
 
 import ContactSection from './components/Contact/ContactSection.vue'
 
@@ -50,6 +51,7 @@ app.component('software-card', SoftwareCard)
 app.component('my-traits', MyTraits)
 
 app.component('project-section', ProjectSection)
+app.component('project-card', ProjectCard)
 
 app.component('contact-section', ContactSection)
 
