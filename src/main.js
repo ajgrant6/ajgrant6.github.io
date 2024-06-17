@@ -24,6 +24,7 @@ import ProjectSection from './components/Projects/ProjectSection.vue'
 import ProjectCard from './components/Projects/ProjectCard.vue'
 
 import ContactSection from './components/Contact/ContactSection.vue'
+import ContactCard from './components/Contact/ContactCard.vue'
 
 const app = createApp(App)
 
@@ -54,5 +55,6 @@ app.component('project-section', ProjectSection)
 app.component('project-card', ProjectCard)
 
 app.component('contact-section', ContactSection)
+app.component('contact-card', ContactCard)
 
 app.mount('#app')
