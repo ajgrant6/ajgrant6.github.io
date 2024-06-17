@@ -20,7 +20,7 @@
     </section>
 
     <section id="contact">
-        <div class="background2">
+        <div class="background2" style="padding-bottom: 150px">
             <contact-section />
         </div>
     </section>

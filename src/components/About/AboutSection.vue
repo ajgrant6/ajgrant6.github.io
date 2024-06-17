@@ -3,7 +3,7 @@
         <section-title title="About" bgColor="#F4D06F" />
     </div>
     <div class="description-container">
-        <div class="description-item">
+        <div class="description-item description-item-left">
             <image-of-me />
         </div>
         <div class="description-item">
@@ -40,20 +40,29 @@
 <script></script>
 
 <style scoped>
+body {
+    align-content: center;
+}
+
 .description-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    max-width: 1200px;
+    max-width: 1050px;
     margin: 0 auto;
-    margin-left: 5%;
-    margin-right: 5%;
+    /* margin-left: 5%;
+    margin-right: 5%; */
     align-items: center; /* Center items vertically */
 }
 
 .description-item {
     flex-grow: 1;
     flex-basis: 300px;
+}
+
+.description-item-left {
+    flex-grow: 0;
+    flex-basis: 40%;
 }
 
 .description-text {
