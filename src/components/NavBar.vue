@@ -31,10 +31,10 @@ export default {
 }
 
 .item {
-    flex: 1;
-    max-width: 100px;
     padding: 10px;
     cursor: pointer;
+    text-align: center;
+    min-width: 80px;
 }
 
 .item-1 {
