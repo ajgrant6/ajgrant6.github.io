@@ -10,16 +10,16 @@
             },
             fpsLimit: 120,
             interactivity: {
-                // events: {
-                //     onClick: {
-                //         enable: true,
-                //         mode: 'push'
-                //     },
-                //     onHover: {
-                //         enable: true,
-                //         mode: 'repulse'
-                //     }
-                // },
+                events: {
+                    // onClick: {
+                    //     enable: true,
+                    //     mode: 'push'
+                    // },
+                    onHover: {
+                        enable: false,
+                        mode: ['connect']
+                    }
+                },
                 modes: {
                     bubble: {
                         distance: 400,
@@ -33,6 +33,18 @@
                     repulse: {
                         distance: 200,
                         duration: 0.4
+                    },
+                    grab: {
+                        distance: 200,
+                        links: {
+                            opacity: 0.4
+                        }
+                    },
+                    connect: {
+                        distance: 550,
+                        links: {
+                            opacity: 0.5
+                        }
                     }
                 }
             },
@@ -59,7 +71,7 @@
                     density: {
                         enable: true
                     },
-                    value: 200
+                    value: 350
                 },
                 opacity: {
                     value: 0.5
