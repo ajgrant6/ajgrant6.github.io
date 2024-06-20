@@ -39,7 +39,8 @@ export default {
                 'tensorflow',
                 'vscode',
                 'vuejs',
-                'xcode'
+                'xcode',
+                'hf-logo'
                 // add all your svg file names here
             ]
         }
