@@ -2,6 +2,8 @@ import { createApp } from 'vue'
 import Particles from '@tsparticles/vue3'
 import { loadFull } from 'tsparticles'
 import Vue3Marquee from 'vue3-marquee'
+import StickyElement from 'vue-sticky-element'
+import 'vue-sticky-element/css' // this is required for default styles to work. With StickyElement
 
 import App from './App.vue'
 
@@ -35,6 +37,9 @@ app.use(Particles, {
         //   await loadSlim(engine); // or you can load the slim version from "@tsparticles/slim" if don't need Shapes or Animations
     }
 })
+
+app.use(StickyElement)
+app.component('sticky-element', StickyElement)
 
 app.component('title-item', MyTitle)
 app.component('title-screen', TitleScreen)
