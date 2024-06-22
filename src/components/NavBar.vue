@@ -24,10 +24,12 @@ export default {
 <style scoped>
 .nav {
     display: flex;
-    justify-content: right; /* Changed from right to space-between */
+    justify-content: left;
     background-color: #59565a;
     width: 100vw;
     transition: all 0.3s;
+    /* padding-left: 10px; */
+    /* padding-right: 10px; */
 }
 
 .item {
