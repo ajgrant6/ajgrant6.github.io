@@ -5,7 +5,7 @@
             <h1>{{ project.title }}</h1>
             <p>{{ project.description }}</p>
             <div class="live_status" v-if="is_live" @click.stop="navigate_to_demo">
-                <p>Click Here for a Live Demo!</p>
+                <p>Click Here for a (Rough) Beta Demo!</p>
             </div>
         </div>
     </div>

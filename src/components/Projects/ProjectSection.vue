@@ -47,7 +47,7 @@ export default {
                         },
                         {
                             title: 'Job-Scoper',
-                            url: 'http://Jobscoper.xyz'
+                            url: 'https://Jobscoper.xyz'
                         }
                     ],
                     is_live: true
