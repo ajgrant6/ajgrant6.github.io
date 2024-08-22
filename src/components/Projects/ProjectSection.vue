@@ -1,7 +1,12 @@
 <template>
     <section-title title="Projects" bgColor="#ff8811" />
     <div class="project-container">
-        <project-card v-for="project in projects" :key="project.id" :project="project" />
+        <project-card
+            v-for="project in projects"
+            :key="project.id"
+            :project="project"
+            :is_live="project.is_live"
+        />
     </div>
 </template>
 
@@ -39,8 +44,13 @@ export default {
                         {
                             title: 'DevPost',
                             url: 'https://devpost.com/software/job-scoper'
+                        },
+                        {
+                            title: 'Job-Scoper',
+                            url: 'http://Jobscoper.xyz'
                         }
-                    ]
+                    ],
+                    is_live: true
                 },
                 {
                     id: 3,

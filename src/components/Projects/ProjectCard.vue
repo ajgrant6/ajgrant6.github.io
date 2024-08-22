@@ -4,6 +4,9 @@
         <div class="description">
             <h1>{{ project.title }}</h1>
             <p>{{ project.description }}</p>
+            <div class="live_status" v-if="is_live" @click.stop="navigate_to_demo">
+                <p>Click Here for a Live Demo!</p>
+            </div>
         </div>
     </div>
 </template>
@@ -14,11 +17,18 @@ export default {
         project: {
             type: Object,
             required: true
+        },
+        is_live: {
+            type: Boolean,
+            default: false
         }
     },
     methods: {
         navigateToLink() {
             window.open(this.project.links[0].url, '_blank')
+        },
+        navigate_to_demo() {
+            window.open(this.project.links[1].url, '_blank')
         }
     }
 }
@@ -66,5 +76,24 @@ p {
     padding-right: 20px;
     padding-top: 5px;
     padding-bottom: 10px;
+}
+
+.live_status {
+    background-color: #ff8811;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition:
+        background-color 0.3s ease,
+        transform 0.3s ease;
+}
+
+.live_status:hover {
+    background-color: #ff5500;
+    transform: scale(1.05);
 }
 </style>
