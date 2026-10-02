@@ -28,3 +28,12 @@ coverage
 *.sw?
 
 *.tsbuildinfo
+
+# Personal scratch / local scripts
+*.sh
+
+# Local editor & OS cruft
+*.bak
+*.tmp
+*.swp
+Thumbs.db
