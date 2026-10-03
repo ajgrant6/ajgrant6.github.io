@@ -5,7 +5,7 @@
             v-for="project in projects"
             :key="project.id"
             :project="project"
-            :is_live="project.is_live"
+            :demo_info="project.demo_info"
         />
     </div>
 </template>
@@ -45,12 +45,16 @@ export default {
                             title: 'DevPost',
                             url: 'https://devpost.com/software/job-scoper'
                         },
-                        {
-                            title: 'Job-Scoper',
-                            url: 'https://Jobscoper.xyz'
-                        }
+                        // {
+                        //     title: 'Job-Scoper',
+                        //     url: 'https://Jobscoper.xyz'
+                        // }
                     ],
-                    is_live: true
+                    demo_info: {
+                        active: true,
+                        text: "Click here for a (rough) demo!",
+                        url: "https://Jobscoper.xyz",
+                    }
                 },
                 {
                     id: 3,

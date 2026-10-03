@@ -4,8 +4,8 @@
         <div class="description">
             <h1>{{ project.title }}</h1>
             <p>{{ project.description }}</p>
-            <div class="live_status" v-if="is_live" @click.stop="navigate_to_demo">
-                <p>Click Here for a (Rough) Beta Demo!</p>
+            <div class="live_status" v-if="demo_info.active" @click.stop="navigate_to_demo">
+                <p>{{ demo_info.text }}</p>
             </div>
         </div>
     </div>
@@ -18,9 +18,9 @@ export default {
             type: Object,
             required: true
         },
-        is_live: {
-            type: Boolean,
-            default: false
+        demo_info: {
+            type: Object,
+            default: () => ({})
         }
     },
     methods: {
@@ -28,7 +28,7 @@ export default {
             window.open(this.project.links[0].url, '_blank')
         },
         navigate_to_demo() {
-            window.open(this.project.links[1].url, '_blank')
+            window.open(this.demo_info.url, '_blank')
         }
     }
 }
